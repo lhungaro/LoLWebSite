@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cursor {
+   /* cursor: url(images.png); */
+}
+
+.corpoDaPagina{
+    position: relative;
+    gap: 1rem;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Lumanosimo', cursive;
+    
+    
+}
+.textos{
+    gap: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 100vh;
+    
+}
+
+.imagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+img{
+    
+    background-image: linear-gradient(0 0 0 0.5), rgba(0 0 0 0.5);
+    max-width: 100vw;
+    width: 100%;
+    background-position: center;
+}
+
+.tituloInicial{
+
+align-items: center;
+justify-content: space-between;
+
+}
+
+.proximostatus{
+    gap:1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.botaoimagem{
+    padding-top: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.colocarNick{
+    gap:1rem;
+    border-radius: 0.25rem;
+    border: 1px solid aqua;
+    padding: 1rem 10rem;
+    background-color:greenyellow;
+    
+}

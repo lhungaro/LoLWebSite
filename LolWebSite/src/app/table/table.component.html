@@ -1,0 +1,83 @@
+<main>
+    <div *ngFor="let row of rows" class="table-row container">
+        <div class="row">
+            <div class="row-wrapper">
+                <div class="user">
+                    <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
+                    <div class="username">
+                        <h3>Username1 <img class="mic" src="../../assets/UI/mic.png" alt=""></h3>
+                        <span><img src="../../assets/UI/riot-icon.png" alt="">Verificado </span>
+                    </div>
+                </div>
+                <img class="elo" src="../../assets/UI/gold.png" alt="">
+                <h4>Postado a 2 minutos atrás</h4>
+    
+            </div>
+            <div class="divider"></div>
+            <div class="lanes-mode">
+                <div class="lanes" style="margin-left: 0rem;">
+                    <label for="lanes">Posição</label>
+                    <div id="lanes">
+                        <img src="../../assets/UI/bot_gold.png" alt="">
+                        <img src="../../assets/UI/jungle_gold.png" alt="">
+                        <img src="../../assets/UI/jungle_gold.png" alt="">
+                    </div>
+                </div>
+                <div class="lanes">
+                    <label for="lanes">Procurando por</label>
+                    <div id="lanes"><img src="../../assets/UI/suport_gold.png" alt=""></div>
+                </div>
+                <div id="game-mode" class="lanes">
+                    <label for="lanes">Modo de jogo</label>
+                    <div id="lanes">Ranked solo</div>
+                </div>
+            </div>
+            <label for="note">Nota:</label>
+            <div id="note" class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor.</div>
+            <h4 id="time">Postado a 2 minutos atrás</h4>
+            
+        </div>
+    </div>
+
+    <table class="container" >
+        <thead>
+            <tr>
+                <th>Icone</th>
+                <th>Username</th>
+                <th>Elo</th>
+                <th>Posições</th>
+                <th>Procurando duo</th>
+                <th>Descrição</th>
+                <th>Postado em</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let row of rows">
+            <tr>
+                <td>
+                    <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
+                </td>
+                <td>
+                    <div class="username">
+                        <h3>Username1 <img class="mic" src="../../assets/UI/mic.png" alt=""></h3>
+                        <span><img src="../../assets/UI/riot-icon.png" alt="">Verificado </span>
+                    </div>
+                </td>
+                <td>
+                    <img class="elo" src="../../assets/UI/gold.png" alt="">
+                </td>
+                <td>
+                    <div id="lanes"><img src="../../assets/UI/suport_gold.png" alt=""></div>
+                </td>
+                <td>
+                    <div id="lanes"><img src="../../assets/UI/suport_gold.png" alt=""></div>
+                </td>
+                <td>
+                    <div id="note" class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor.</div>
+                </td>
+                <td>
+                    <h4 id="time">Postado a 2 minutos atrás</h4>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>

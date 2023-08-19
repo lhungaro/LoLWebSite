@@ -1,0 +1,264 @@
+main{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-row{
+    background-color: var(--Grey3);
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+}
+
+.row{
+    padding: 1rem;
+}
+.row-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.user{
+    display: flex;
+    align-items: flex-end;
+}
+
+.username h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--Text);
+}
+
+.row-wrapper h4{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: var(--Text2);
+    max-width: 25%;
+}
+
+label{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: var(--Text2);
+    max-width: 25%;
+}
+
+.username span{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--Text);
+    display: flex;
+    align-items: center;
+}
+
+.username span img{
+  margin-right: 0.2rem;
+}
+
+.username h3 img{
+    margin-left: 0.2rem;
+}
+
+.divider{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--Grey4);
+    height: 0.3rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.note{
+    background-color: var(--Grey4);
+    color: var(--Text);
+    font-family: Inter;
+    padding: 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.lanes-mode{
+    display: flex;
+    width: 100%;
+}
+
+.lanes{
+    flex: 1;
+    margin-left: 1rem;
+}
+#lanes{
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    padding: 0.6rem 1rem 0.4rem 0.6rem;
+    
+    background-color: var(--Grey2);
+    color: var(--Text2);
+    font-family: inter;
+    font-size: 0.7rem;
+    height: 1.5rem;
+    align-items: center;
+    font-weight: 700;
+}
+
+#lanes img{
+    width: 1.2rem;
+}
+
+#time{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: var(--Text2);
+    max-width: 25%;
+    display: none;
+}
+
+table{
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1440px) {
+
+    .container{
+        max-width: 1200px;
+    }
+
+    .table-row{
+       display: none;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+    }
+
+    .row-wrapper{
+        width: 35%;
+    }
+
+    .row-wrapper .elo{
+        width: 5rem;
+    }
+
+    .user{
+        align-items: center;
+    }
+
+    .user h3{
+        font-size: 1rem;
+    }
+
+    .user .mic{
+        width: 0.8rem;
+    }
+
+    .user .profile-icon{
+        width: 5rem;
+    }
+
+
+    .divider{
+        display: none;
+    }
+
+    .row-wrapper h4{
+        display: none;
+    }
+
+    .lanes-mode{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .lanes-mode #game-mode{
+        display: none;
+    }
+
+    #lanes{
+        width: 6rem;
+    }
+    .lanes{
+        width: 6rem;
+    }
+
+    .username{
+        width: 6rem;
+    }
+
+    label{
+        display: none;
+    }
+
+    .note{
+        width: 20rem;
+    }
+
+   #time{
+        display: flex;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    /* table */
+    table{
+        display: inline;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    tbody tr {
+        border-radius: 10px;
+        border-bottom: 10px solid var(--Grey); /* Adapte a espessura conforme necessário */
+    }
+    
+    tr th{
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: var(--Text);
+        padding-bottom: 0.6rem;
+    }
+
+    tbody tr{
+        background-color: var(--Grey3);
+        margin-bottom: 3rem;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    tbody td{
+        padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    }
+
+    tbody td .profile-icon,tbody td .elo{
+        width: 4rem;
+    }
+
+
+}

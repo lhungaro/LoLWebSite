@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Grey);
+}
+
+/* Cores que estão no figma */
+:root {
+   --Grey : #1F1F1F;
+   --Grey2 : #2B2B2B;
+   --Grey3 : #383838;
+   --Grey4 : #474747;
+   --Primary : #8B5CF6;
+   --Green : #0FFFAA;
+   --Text : #ffffff;
+   --Text2 : #A0A0A0;
+}
