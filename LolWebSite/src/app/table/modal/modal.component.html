@@ -1,0 +1,142 @@
+<main> 
+    <div class="modal">
+
+        <div class="close-button">
+            <span class="material-symbols-outlined" (click)="closeModal()">
+                close
+            </span>
+        </div>
+        <div class="modal-header">
+            <div class="border-icon">
+                <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
+                <img src="../../../assets/border/425.png" alt="">
+            </div>
+            <div class="user-informations">
+                <h3>{{username}}</h3>
+                <p *ngIf=verified style="display: flex;align-items: center;"><img src="../../assets/UI/riot-icon.png" alt="" style="margin-right: 5px;height: 1rem;">Verificado </p>
+                <span>{{PDL}} PDL {{elo}}</span>
+                <span>{{totalGames}} Games</span>
+            </div>
+            <div class="elo">
+                <img src="../../../assets/ranked-emblem/emblem-esmerald.png" alt="">
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="lane-select">
+            <div class="lane">
+                <h4>Posição</h4>
+                <div class="lanes"> 
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                </div>
+            </div>
+
+            <div class="selects">
+                <h4>Modo de jogo</h4>
+                <div class="select">
+                    <select class="elo" name="" id="">
+                        <option value="soloduo">Ranked Solo <img src="../../../assets/ranked-emblem/emblem-esmerald.png" alt=""></option>
+                        <option value="normal">Normal Game</option>
+                        <option value="flex">Ranked Flex</option>
+                        <option value="aram">Aram</option>
+                        <option value="arena">Arena</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="lane-select">
+            <div class="lane">
+                <h4>Procurando por</h4>
+                <div class="lanes"> 
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                </div>
+            </div>
+
+            <div class="selects">
+                <h4>Elo</h4>
+                <div class="select">
+                    <select class="game-mode" name="" id="">
+                        <option value="bronze">Bronze</option>
+                        <option value="prata">Prata</option>
+                        <option value="ouro">Ouro</option>
+                        <option value="platina">Platina</option>
+                        <option value="esmeralda">Esmeralda</option>
+                        <option value="diamante">Diamante</option>
+                        <option value="mestre">Mestre</option>
+                        <option value="graoMestre">Grão-Mestre</option>
+                        <option value="desafiante">Desafiante</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>Nota</h4>
+            <div class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor
+                Lorem ipsum dolor sit amet cosicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor
+                Lorem ipsum dolor sit amet consectetur Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolorLorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor.</div>
+        </div>
+
+        <div>
+            <h4>Maiores maestrias</h4>
+            <div>
+                <div class="maestry-informations">
+                    <div class="champ-maestry">
+                        <div class="icon-champ">
+                            <img [src]="champMastery1.champIconUrl" alt="">
+                        </div>
+                        <div class="mastery-points">
+                            <label for="img">{{champMastery1.champ}}</label>
+                            <span>
+                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
+                                {{champMastery1.masteryPoints}}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="champ-maestry">
+                        <div class="icon-champ">
+                            <img  [src]="champMastery2.champIconUrl" alt=""> 
+                        </div>
+                        <div class="mastery-points">
+                            <label for="img">{{champMastery2.champ}}</label>
+                            <span>
+                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
+                                {{champMastery2.masteryPoints}}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="champ-maestry">
+                        <div class="icon-champ">
+                            <img [src]="champMastery3.champIconUrl" alt="">
+                        </div>
+                        <div class="mastery-points">
+                            <label for="img">{{champMastery3.champ}}</label>
+                            <span>
+                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
+                                {{champMastery3.masteryPoints}}
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+</main>

@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Inter;
+
 }
 
 body{
@@ -18,4 +20,13 @@ body{
    --Green : #0FFFAA;
    --Text : #ffffff;
    --Text2 : #A0A0A0;
+}
+
+.divider{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--Grey4);
+    height: 0.3rem;
+    width: 100%;
+    border-radius: 5px;
 }

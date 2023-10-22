@@ -5,6 +5,10 @@ main{
     flex-direction: column;
 }
 
+.filters{
+    width: 100%;
+}
+
 .table-row{
     background-color: var(--Grey3);
     margin-bottom: 1rem;

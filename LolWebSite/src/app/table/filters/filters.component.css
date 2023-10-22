@@ -1,0 +1,141 @@
+main{
+    display: flex;
+    justify-content: center; 
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.first-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lanes{
+    display: flex;
+    background-color: var(--Grey2);
+    padding: 0.6rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+}
+
+.lanes img{
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.lanes img:hover{
+    width: 1.5rem;
+    border: solid 2px #ffff;
+}
+
+button{
+    width: 5rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--Primary);
+    font-family: Inter;
+    font-weight: 500;
+    color: #fff;
+}
+
+.selects{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.selects .game-mode{
+    width:48%;
+}
+
+.selects .elo{
+    width:48%;
+}
+
+
+select,ng-select{
+    background-color: var(--Grey2);
+    border: none;
+    color: var(--Text2);
+    height: 3rem;
+    font-family: Inter;
+    padding: 0.5rem;
+}
+
+option{
+    background-color: var(--Grey2);
+    border: none;
+    color: var(--Text2);
+}
+
+.button-desktop{
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .main-wrapper{
+        min-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .button-desktop{
+        width: 10rem;
+        height: 2.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .button-mobile{
+        display: none;
+    }
+
+    .button-desktop{
+        width: 10rem;
+        height: 2.8rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-left: auto;
+    }
+
+    .main-wrapper{
+        width: 784px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .selects .game-mode{
+        width:10rem;
+        margin-right: 1rem;
+    }
+    
+    .selects .elo{
+        width:10rem;
+        margin-right: 1rem;
+    }
+    
+    .selects .location{
+        width:10rem;
+        margin-right: 1rem;
+    }
+
+    .lanes{
+        margin-right: 1rem;
+    }
+    
+} 

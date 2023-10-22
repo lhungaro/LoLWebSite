@@ -1,6 +1,9 @@
 <main>
+    <div class="filters">
+        <app-filters>ASDF</app-filters>
+    </div>
     <div *ngFor="let row of rows" class="table-row container">
-        <div class="row">
+        <div class="row" (click)="openModal()">
             <div class="row-wrapper">
                 <div class="user">
                     <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
@@ -52,7 +55,7 @@
             </tr>
         </thead>
         <tbody *ngFor="let row of rows">
-            <tr>
+            <tr (click)="openModal()" style="cursor: pointer;">
                 <td>
                     <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
                 </td>
@@ -81,3 +84,6 @@
         </tbody>
     </table>
 </main>
+
+
+<app-modal *ngIf="modalOpen" (closeModalTable)="closeModal($event)"></app-modal>
