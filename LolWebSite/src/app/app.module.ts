@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { AccountService } from './services/account.service';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { MainPageComponent } from './main-page/main-page.component';
-import { TableComponent } from './table/table.component';
-import { FiltersComponent } from './table/filters/filters.component';
-import { HeaderComponent } from './header/header.component';
+import { MainPageComponent } from './views/main-page/main-page.component';
+import { HeaderComponent } from './views/header/header.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule, NgModel } from '@angular/forms';
-import { ModalComponent } from './table/modal/modal.component';
+import { TableComponent } from './views/table/table.component';
+import { FiltersComponent } from './views/table/filters/filters.component';
+import { ModalComponent } from './views/table/modal/modal.component';
 
 @NgModule({
   declarations: [
