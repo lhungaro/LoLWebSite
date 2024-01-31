@@ -1,12 +1,12 @@
 <main> 
     <div class="modal">
-
         <div class="close-button">
             <span class="material-symbols-outlined" (click)="closeModal()">
                 close
             </span>
         </div>
-        <div class="modal-header">
+        <h2>Crie seu anúncio</h2>
+        <div class="modal-header" *ngIf="perfilVerificado">
             <div class="border-icon">
                 <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
                 <img src="../../../assets/border/425.png" alt="">
@@ -22,25 +22,32 @@
             </div>
         </div>
 
-        <div class="divider"></div>
+        <div class="divider" *ngIf="perfilVerificado"></div>
+
+        <h4>Digite seu nick *</h4>
+        <div class="nickname-containter">
+            <div class="nickname">
+                <input type="text" name="nickname" id="nickname" maxlength="25">
+            </div>
+            <button>Verificar</button>
+        </div>
 
         <div class="lane-select">
             <div class="lane">
-                <h4>Posição</h4>
+                <h4>Selecione sua lane *</h4>
                 <div class="lanes"> 
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                     <div class="lanesImages" (click)="selecionouDuoTop()" [ngClass]="{ 'laneSelecionada': topDuoLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
+                     <div class="lanesImages" (click)="selecionouDuoJungle()" [ngClass]="{ 'laneSelecionada': jungleDuoLaneIsActive }"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
+                     <div class="lanesImages" (click)="selecionouDuoMid()" [ngClass]="{ 'laneSelecionada': midDuoLaneIsActive }"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
+                     <div class="lanesImages" (click)="selecionouDuoBot()" [ngClass]="{ 'laneSelecionada': botDuoLaneIsActive }"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
+                     <div class="lanesImages" (click)="selecionouDuoSuporte()" [ngClass]="{ 'laneSelecionada': suporteDuoLaneIsActive }"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
                 </div>
             </div>
-
+            <div style="margin-left: 1rem;"></div>
             <div class="selects">
-                <h4>Modo de jogo</h4>
+                <h4>Selecione o modo *</h4>
                 <div class="select">
-                    <select class="elo" name="" id="" disabled>
+                    <select class="elo" name="" id="">
                         <option value="soloduo">Ranked Solo <img src="../../../assets/ranked-emblem/emblem-esmerald.png" alt=""></option>
                         <option value="normal">Normal Game</option>
                         <option value="flex">Ranked Flex</option>
@@ -53,21 +60,20 @@
 
         <div class="lane-select">
             <div class="lane">
-                <h4>Procurando por</h4>
+                <h4>Selecione a lane do seu duo *</h4>
                 <div class="lanes"> 
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
-                    <img src="../../../assets/UI/bot_gold.png" alt="">
+                    <div class="lanesImages" (click)="selecionouTop()" [ngClass]="{ 'laneSelecionada': topLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
+                    <div class="lanesImages" (click)="selecionouJungle()" [ngClass]="{ 'laneSelecionada': jungleLaneIsActive}"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
+                    <div class="lanesImages" (click)="selecionouMid()" [ngClass]="{ 'laneSelecionada': midLaneIsActive}"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
+                    <div class="lanesImages" (click)="selecionouBot()" [ngClass]="{ 'laneSelecionada': botLaneIsActive}"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
+                    <div class="lanesImages" (click)="selecionouSuporte()" [ngClass]="{ 'laneSelecionada': suporteLaneIsActive}"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
                 </div>
             </div>
-
+            <div style="margin-left: 1rem;"></div>
             <div class="selects">
-                <h4>Elo</h4>
+                <h4>Selecione seu elo *</h4>
                 <div class="select">
-                    <select class="game-mode" name="" id="" disabled>
+                    <select class="game-mode" name="" id="">
                         <option value="bronze">Bronze</option>
                         <option value="prata">Prata</option>
                         <option value="ouro">Ouro</option>
@@ -82,14 +88,17 @@
             </div>
         </div>
 
-        <div>
-            <h4>Nota</h4>
-            <div class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor
-                Lorem ipsum dolor sit amet cosicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor
-                Lorem ipsum dolor sit amet consectetur Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolorLorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus fugit suscipit earum unde, rerum illo ipsum dolor.</div>
+        <div class="checkbox">
+            <input type="checkbox" name="" id="">
+            <h4>Costumo me conectar ao chat de voz</h4>
         </div>
 
         <div>
+            <h4>Deixe uma nota *</h4>
+            <textarea class="textarea"></textarea>
+        </div>
+
+        <div *ngIf="perfilVerificado">
             <h4>Maiores maestrias</h4>
             <div>
                 <div class="maestry-informations">
@@ -136,7 +145,11 @@
             </div>
             
         </div>
-
+        <div class="buttons">
+            <button class="buttonCancelar" (click)="closeModal()">Cancelar</button>
+            <button>Criar anúncio</button>
+        </div>
 
     </div>
 </main>
+

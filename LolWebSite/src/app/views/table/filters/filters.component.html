@@ -9,7 +9,7 @@
                 <img src="../../../assets/UI/bot_gold.png" alt="">
                 <img src="../../../assets/UI/bot_gold.png" alt="">
             </div>
-            <button class="button-mobile">Poste um DUO</button>
+            <button class="button-mobile" (click)="openModal()" style="cursor: pointer;">Poste um DUO</button>
         </div>
 
         <div class="selects">
@@ -30,6 +30,8 @@
             </select>
             
         </div>
-        <button class="button-desktop">Poste um DUO</button>
+        <button class="button-desktop" (click)="openModal()" style="cursor: pointer;">Poste um DUO</button>
     </div>
 </main>
+
+<app-filters-modal *ngIf="modalOpen" (closeModalTable)="closeModal($event)"></app-filters-modal>

@@ -1,0 +1,592 @@
+main{
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    height: auto;
+}
+
+.close-button{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-button span{
+    position: absolute;
+    bottom: 0rem; 
+    right: -1.2rem; 
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modal{
+    overflow-y: scroll;
+    width: 80%;
+    background-color: var(--Grey2);
+    border-radius: 5px;
+    padding: 2rem;
+    height: 40rem;
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.border-icon{
+    height: 10rem;
+    position: relative;
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.border-icon img{
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.border-icon .profile-icon{
+    height: 5.5rem;
+    padding: 2.25rem;
+}
+
+.user-informations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.elo{
+}
+
+h3{
+    font-weight: 600;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+span{
+    font-size: 10pt;
+    font-weight: 200;
+    color: var(--Text2);
+}
+
+.lanes{
+    display: flex;
+    background-color: var(--Grey);
+    height: 3rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lanesImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.laneSelecionada {
+    border: 4px solid var(--Grey3);
+}
+
+h4{
+    font-size: 10pt;
+    font-weight: 500;
+    color: var(--Text);
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+
+.lane{
+    width: 100%;
+
+}
+
+.lanes img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0rem;
+}
+
+.selects{
+    width: 100%;
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.select .game-mode{
+    width:100%;
+}
+
+.select .elo{
+    width:100%;
+}
+
+
+select,ng-select{
+    background-color: var(--Grey);
+    border: none;
+    color: var(--Text2);
+    height: 3rem;
+    font-family: Inter;
+    padding: 0.5rem;
+}
+
+option{
+    background-color: var(--Grey);
+    border: none;
+    color: var(--Text2);
+}
+
+.lane-select{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.note{
+    background-color: var(--Grey4);
+    color: var(--Text);
+    font-family: Inter;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    max-height: 10rem;
+    overflow: hidden;
+}
+
+
+.textarea{
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--Grey4);
+    color: var(--Text);
+    font-family: Inter;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    resize: none;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+textarea:focus{
+    border: none;
+}
+
+
+.icon-champ{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-champ img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.maestry-informations{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.champ-maestry{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.mastery-points{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+}
+
+.mastery-points label{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.mastery-points span{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.mastery-points img{
+    width: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.nickname{
+    background-color: var(--Grey);
+    color: var(--Text);
+    font-family: Inter;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    max-height: 10rem;
+    overflow: hidden;
+}
+
+.nickname input{
+    background-color:var(--Grey);
+    border: none;
+    all:initial;
+    font-size: 12pt;
+    font-weight: 500;
+    color: var(--Text2);
+    font-family: 'Fredoka';
+}
+
+.nickname-containter{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    padding: 0.75rem 1.25rem;
+    align-items: center;
+    border-radius: 0.375rem;
+    background-color: var(--Primary);
+    border: 2px solid var(--Primary);
+    color: var(--Text);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    max-height: 10rem;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    background-color: var(--Grey);
+    
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background-color: var(--Grey);
+    border-radius: 5px;
+    
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid var(--Green);
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    left: 9px;
+
+}
+
+.checkbox{
+display: flex;
+gap: 1.5rem;
+margin: 1.5rem 0 1.5rem 0;
+width: 100%;
+}
+
+.checkbox h4{
+    margin: 0 0 0 0;
+}
+
+.buttonCancelar{
+    background:none;
+    border: 2px solid var(--Grey4)
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+h2{
+    color:var(--Text);
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+
+    main{
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+    }
+
+    .close-button{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .close-button span{
+        position: absolute;
+        bottom: 0rem; /* Move o botão para fora da div para baixo */
+        right: -1.2rem; /* Move o botão para fora da div para a direita */
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .modal{
+        width: 38rem;
+        height: auto;
+        background-color: var(--Grey2);
+        border-radius: 5px;
+        padding: 2rem;
+        overflow-y: hidden;
+    }
+
+    .modal-header{
+        display: flex;
+        justify-content: space-between ;
+        flex-direction: row;
+
+    }
+
+    .border-icon{
+        margin-top: 0rem;
+        height: 10rem;
+        position: relative;
+        width: 10rem;
+    }
+
+    .border-icon img{
+        height: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .border-icon .profile-icon{
+        height: 5.5rem;
+        padding: 2.25rem;
+    }
+
+    .user-informations{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+
+    .elo{
+    }
+
+    h3{
+        font-weight: 600;
+    }
+
+    p{
+        margin-bottom: 5px;
+    }
+
+    span{
+        font-size: 10pt;
+        font-weight: 200;
+        color: var(--Text);
+    }
+
+    .lanes{
+        display: flex;
+        background-color: var(--Grey);
+        padding: 0.6rem;
+        height: 2rem;
+        margin-right: 0rem;
+        width: 17.5rem;
+
+    }
+
+    h4{
+        font-size: 12pt;
+        font-weight: 500;
+        color: var(--Text);
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .lanes img{
+        width: 2rem;
+        margin-right:0rem;
+    }
+
+    .selects{
+        width: 100%;
+    }
+
+    .select{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .select .game-mode{
+        width:100%;
+    }
+
+    .select .elo{
+        width:100%;
+    }
+
+
+    select,ng-select{
+        background-color: var(--Grey);
+        border: none;
+        color: var(--Text);
+        height: 3rem;
+        font-family: Inter;
+        padding: 0.5rem;
+    }
+
+    option{
+        background-color: var(--Grey);
+        border: none;
+        color: var(--Text);
+    }
+
+    .lane-select{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .note{
+        background-color: var(--Grey4);
+        color: var(--Text);
+        font-family: Inter;
+        padding: 0.8rem;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        max-height: 5rem;
+        overflow: hidden;
+    }
+
+
+
+    .icon-champ{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-champ img{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    .maestry-informations{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .champ-maestry{
+        width: 33.33%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .mastery-points{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.8rem;
+    }
+
+    .mastery-points label{
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.3rem;
+    }
+
+    .mastery-points span{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .mastery-points img{
+        width: 1.5rem;
+        margin-right: 0.3rem;
+    }
+    
+    .nickname,.nickname input{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+    }
+    .nickname-containter button{
+        width: 15rem;
+    }
+
+  
+}

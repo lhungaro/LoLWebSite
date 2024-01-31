@@ -13,6 +13,7 @@ import { FormsModule, NgModel } from '@angular/forms';
 import { TableComponent } from './views/table/table.component';
 import { FiltersComponent } from './views/table/filters/filters.component';
 import { ModalComponent } from './views/table/modal/modal.component';
+import { FiltersModalComponent } from './views/table/filters/filters-modal/filters-modal.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ModalComponent } from './views/table/modal/modal.component';
     TableComponent,
     FiltersComponent,
     ModalComponent,
+    FiltersModalComponent,
 
   ],
   imports: [
