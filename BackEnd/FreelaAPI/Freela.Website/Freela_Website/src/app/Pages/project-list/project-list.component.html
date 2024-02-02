@@ -1,0 +1,22 @@
+
+<div id="page-freela-list">
+    <div id="freela-list" class="container">
+      <app-page-header  page="befreela" title="Estes são os
+      Projetos disponíveis."></app-page-header>
+      <div class="form-container">
+            <form id="search-freelas" class="container">
+                <div class="input-block">
+                    <label htmlFor="subject">Pesquisar</label>
+                    <input type="text" id="subject" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="page-content">
+      <div class="list">
+        <div *ngFor="let proj of project" >
+          <app-project-item [project]="proj"></app-project-item>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+<div class="project-form">
+  <app-page-header title="Faça seu cadastro
+  para ser um freela." subtitle="O primeiro passo, é preencher esse
+  formulário de inscrição."></app-page-header>
+  <main class="form">
+    <form [formGroup]="form">
+        <div class="input-group">
+
+        <h2 class="title">Seus dados</h2>
+        <div class="line"></div>
+        <div class="inputs">
+          <label for="name">
+            Nome
+          </label>
+          <input class="" id="name" type="text" formControlName="name">
+        </div>
+
+        <div class="inputs">
+          <label for="biography">
+            Fale um pouco sobre você
+          </label>
+          <textarea name="" id="biography" formControlName="biography" cols="30" rows="7"></textarea>
+        </div>
+
+
+        <div class="inputs">
+          <label for="whatsapp">
+            Whatsapp
+          </label>
+          <input class="" id="whatsapp" type="text" formControlName="whatsapp">
+        </div>
+
+        <div class="inputs">
+          <label for="area">
+            Em qual area você trabalha?
+          </label>
+          <input class="" id="area" type="text" formControlName="area">
+        </div>
+
+        <div class="inputs">
+          <label for="price">
+            Preço da sua hora
+          </label>
+          <input class="" id="price" type="text" formControlName="price">
+        </div>
+
+
+        <div class="inputs">
+          <label for="Curriculum">
+            Informe aqui um link para seu currículo ou portifólio
+          </label>
+          <input class="" id="curriculum" type="text" formControlName="curriculum">
+        </div>
+
+        <h2 style="margin-top: 5rem;" class="title">Informe os seus dados profissionais</h2>
+        <div class="line"></div>
+
+        <div class="inputs">
+          <label for="companyName">
+            Razão social  (nome da sua empresa)
+          </label>
+          <input class="" id="companyName" formControlName="companyName" type="text" >
+        </div>
+
+        <div class="inputs">
+          <label for="cnpj">
+            CNPJ / CPF
+          </label>
+          <input class="" id="cnpj" formControlName="cnpj" type="text" >
+        </div>
+
+
+      </div>
+
+      <footer>
+        <div class="warning">
+          <img src="../../../assets/images/icons/warning.svg" alt="Aviso importante">
+          <p>
+            Importante! <br />
+            Preencha todos os dados
+          </p>
+        </div>
+        <button type="submit" (click)="salvar()">
+          Salvar cadastro
+        </button>
+      </footer>
+    </form>
+  </main>
+</div>

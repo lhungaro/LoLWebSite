@@ -27,9 +27,9 @@
         <h4>Digite seu nick *</h4>
         <div class="nickname-containter">
             <div class="nickname">
-                <input type="text" name="nickname" id="nickname" maxlength="25">
+                <input type="text" name="nickname" id="nickname" maxlength="25" ngModel="username">
             </div>
-            <button>Verificar</button>
+            <button (click)="Verificar()">{{LabelVerificar}}</button>
         </div>
 
         <div class="lane-select">

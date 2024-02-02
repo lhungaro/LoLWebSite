@@ -1,0 +1,145 @@
+
+.freela-item{
+  background: var(--color-box-base);
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  width:65rem;
+  height:50rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.container{
+  width:65rem;
+  padding:2rem;
+}
+
+.freela-item header{
+  padding: 3.2rem 2rem 2.5rem 2rem;
+  display:flex;
+  width:60rem;
+}
+
+.freela-item header div{
+  margin-left:1rem;
+}
+
+.freela-item header div strong{
+  font: 700;
+  font-size: 2rem;
+  display: block;
+  color: var(--color-text-title);
+}
+
+.freela-item header div span{
+  font-size: 1.6rem;
+  margin-top:0rem;
+  color: black;
+}
+
+.freela-item img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.freela-item .content > p {
+  padding:0 2rem;
+  font-size: 1.6rem;
+  line-height:2.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow-color:black;
+  text-nowrap: overflow;
+  max-height: 14rem;
+}
+
+.freela-item .content {
+  width:100%;
+  min-height: 14rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction:column;
+}
+
+
+.freela-item footer{
+  padding: 3.2rem 2rem;
+  background:var(--color-box-footer);
+  border-top:1px solid var(--color-line-in-white);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.freela-item footer strong {
+  margin-left:2rem;
+  font-size: 1.6rem;
+  color: var(--color-primary);
+
+}
+
+.freela-item button{
+  background: var(--color-secundary);
+  color: var(--color-title-in-primary);
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:23rem;
+  height:5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.freela-item button img{
+  margin-right:1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+header{
+  width:10rem;
+}
+
+.header-content{
+  width:60rem;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.background{
+  position:absolute;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  background-color:rgba(0,0,0,0.3);
+  top:0;
+  left:0;
+  position:fixed;
+}
+
+.close-modal img{
+  width:1.5rem;
+  height:1.5rem;
+}
+.close-modal{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  cursor: pointer;
+}
+
+.social-medias img{
+  width:3rem;
+  margin:0.5rem;
+}
+
+.social-medias{
+  margin-left:2rem;
+}

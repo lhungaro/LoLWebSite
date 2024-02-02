@@ -1,0 +1,15 @@
+.container {
+  margin-top:0.5rem;
+  display: flex;
+}
+
+.container img{
+  margin-right: 0.5rem;
+  width:2rem;
+}
+
+.container p{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--color-primary-lighter)
+}

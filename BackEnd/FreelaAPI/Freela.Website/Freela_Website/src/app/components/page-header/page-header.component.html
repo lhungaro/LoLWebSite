@@ -1,0 +1,41 @@
+
+<div class='page-header-component' >
+  <header class="page-header">
+    <div class="top-bar-container">
+      <div class="main">
+        <div class="content">
+          <a routerLink="/">
+            <img src="../../assets/images/icons/Freela.svg" alt="" />
+          </a>
+          <div *ngIf="page =='findfreela'" style="margin-left: 2rem;" class="buttons active">
+            <h4>Encontre um freela</h4>
+          </div>
+          <div routerLink="/publique-um-job" *ngIf="page =='findfreela'" style="margin-left: 2rem;" class="buttons">
+            <h4>Publique um projeto</h4>
+          </div>
+          <div routerLink="/cadastro-freela" *ngIf="page =='befreela'" style="margin-left: 2rem;" class="buttons">
+            <h4>Cadastre-se como freela</h4>
+          </div>
+          <div *ngIf="page =='befreela'" style="margin-left: 2rem;" class="buttons active">
+            <h4>Encontre um projeto</h4>
+          </div>
+          <div class="buttons">
+            <h4>Meus projetos</h4>
+          </div>
+        </div>
+        <div class="panel">
+          <img class="icons" src="../../../assets/images/icons/notifications.svg" alt="">
+          <img class="icons" src="../../../assets/images/icons/settings.svg" alt="">
+          <img src="../../../assets/images/icons/userimg.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="header-content">
+        <div class='title'>
+            <h2>{{title}}</h2>
+            <h3 style="color: white; font-weight:300; margin-top:1rem ; margin-bottom:5rem">{{subtitle}}</h3>
+        </div>
+    </div>
+  </header>
+</div>

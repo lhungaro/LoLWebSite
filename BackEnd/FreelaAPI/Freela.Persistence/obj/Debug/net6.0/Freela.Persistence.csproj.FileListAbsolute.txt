@@ -1,0 +1,34 @@
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.deps.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Domain.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Domain.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.AssemblyReference.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.AssemblyInfoInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.AssemblyInfo.cs
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.CopyComplete
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\refint\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\ref\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.runtimeconfig.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.genruntimeconfig.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.deps.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.runtimeconfig.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Persistence.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Domain.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\bin\Debug\net6.0\Freela.Domain.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.AssemblyReference.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.AssemblyInfoInputs.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.AssemblyInfo.cs
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.CoreCompileInputs.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.csproj.CopyComplete
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\refint\Freela.Persistence.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\Freela.Persistence.genruntimeconfig.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\Freela.Persistence\obj\Debug\net6.0\ref\Freela.Persistence.dll

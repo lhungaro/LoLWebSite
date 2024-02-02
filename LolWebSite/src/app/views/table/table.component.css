@@ -17,6 +17,7 @@ main{
 
 .row{
     padding: 1rem;
+    border: 1px solid var(--Border);
 }
 .row-wrapper{
     display: flex;
@@ -28,6 +29,7 @@ main{
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
+    
 }
 
 .user{
@@ -91,6 +93,7 @@ label{
     padding: 0.6rem;
     border-radius: 5px;
     font-size: 0.8rem;
+    border: 2px solid var(--BorderDescription);
 }
 
 .lanes-mode{
@@ -101,8 +104,11 @@ label{
 .lanes{
     flex: 1;
     margin-left: 1rem;
+    border: none;
+    
 }
 #lanes{
+    border: 2px solid var(--Border);
     margin-top: 0.2rem;
     margin-bottom: 0.5rem;
     border-radius:5px ;
@@ -247,6 +253,7 @@ table{
         font-size: 0.9rem;
         color: var(--Text);
         padding-bottom: 0.6rem;
+        
     }
 
     tbody tr{
@@ -254,6 +261,7 @@ table{
         margin-bottom: 3rem;
         border-radius: 1rem;
         padding: 1rem;
+        border: 3px solid var(--Border);
     }
 
     tbody td{

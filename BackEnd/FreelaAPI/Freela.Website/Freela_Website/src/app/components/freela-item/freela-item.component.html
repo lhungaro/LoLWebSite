@@ -1,0 +1,31 @@
+<div class="freela-item">
+  <div class="container">
+  <header>
+      <img src="https://img.freepik.com/fotos-gratis/empresario-de-baixo-angulo_23-2148825893.jpg?w=1380&t=st=1666002190~exp=1666002790~hmac=0ea6c49f5bd6ef23faf3a3401f84a6b42efd3a5d3e11b01fd0f5ceb567cd9363" alt="" />
+      <div class="header-content">
+        <div style="width: 30rem;">
+          <strong class='strong'>{{freela?.name}}</strong>
+          <span>{{freela?.area}}</span>
+          <freela-ranking [freelaRanking]="freela?.company?.companyRanking" ></freela-ranking>
+        </div>
+        <div class="ver-perfil" style="cursor:pointer;" (click)="activeModal()">
+          Ver perfil
+        </div>
+      </div>
+  </header>
+  <div class="content">
+    <p>{{freela?.biography}} </p>
+  </div>
+</div>
+  <footer>
+      <p>Preço/hora
+          <strong>R$ {{freela?.price}},00</strong>
+      </p>
+      <button type="button" >
+          <img src="../../../assets/images/icons//whatsapp.svg" alt="" />
+          Entrar em contato
+      </button>
+  </footer>
+</div>
+
+<app-modal-freela [freela]="freela" (closeModal)="closeModal($event)" *ngIf="modalOpen"></app-modal-freela>

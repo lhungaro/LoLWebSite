@@ -1,6 +1,7 @@
 
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Mastery } from 'src/app/models/mastery';
+import { AccountService } from 'src/app/services/account.service';
 
 @Component({
   selector: 'app-filters-modal',
@@ -9,18 +10,20 @@ import { Mastery } from 'src/app/models/mastery';
 })
 export class FiltersModalComponent {
 
+  constructor(private accountService:AccountService) { }
+
   @Output() closeModalTable = new EventEmitter<boolean>();
  
   perfilVerificado = false;
+  username!:string;
 
   borderUrl = "https://toppng.com/free-image/level-425-summoner-icon-border-league-of-legends-level-425-PNG-free-PNG-Images_176028";
   eloUrl! : string;
-  username  = "Username";
   verified : boolean = true;
   totalGames : number = 332;
   PDL : number = 92;
   elo : string = "Esmeralda II";
-
+  LabelVerificar = "Verificar";
   topLaneIsActive :boolean = false;
   jungleLaneIsActive: boolean = false;
   midLaneIsActive: boolean = false;
@@ -88,4 +91,10 @@ export class FiltersModalComponent {
   selecionouDuoSuporte(){
     this.suporteDuoLaneIsActive = !this.suporteDuoLaneIsActive;
   }
+
+  Verificar(){
+    if(this.username)
+      this.accountService
+  }
+
 }

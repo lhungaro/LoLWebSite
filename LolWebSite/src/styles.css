@@ -7,11 +7,13 @@
 }
 
 body{
-    background-color: var(--Grey);
+  background-color: #1F1F1F;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Cores que estão no figma */
-:root {
+.theme-dark {
    --Grey : #1F1F1F;
    --Grey2 : #2B2B2B;
    --Grey3 : #383838;
@@ -20,6 +22,22 @@ body{
    --Green : #0FFFAA;
    --Text : #ffffff;
    --Text2 : #A0A0A0;
+   --Border : #2B2B2B;
+   --BorderLane : #A0A0A0;
+   --BorderDescription : #383838;
+}
+.theme-light {
+   --Grey : #F0F0F7;
+   --Grey2 : #FAFAFC;
+   --Grey3 : #FAFAFC;
+   --Grey4 : #FAFAFC;
+   --Primary : #8B5CF6;
+   --Green : #1F1F1F;
+   --Text : #434343;
+   --Text2 : #434343;
+   --Border : #E6E6F0;
+   --BorderLane : #A0A0A0;
+   --BorderDescription : #E6E6F0;
 }
 
 .divider{
@@ -31,6 +49,127 @@ body{
     border-radius: 5px;
 }
 
-.buttonCancelar{
-    background:var(--Grey3);
-}
+/* Switch theme */
+
+/* The switch container */
+.switch {
+    --transition: 300ms;
+    --transition500: 500ms;
+    --color-dark: #1F1F1F;
+    --color-darkGray: #2B2B2B;
+    --color-gray: #474747;
+    --color-offwhite: #cecece;
+    --shadow-color: var(--color-dark);
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: fit-content;
+    background-color: var(--color-dark);
+    border-radius: 30px;
+    padding: 4px;
+    transition: var(--transition500);
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Svg styles */
+  .switch .svg {
+    transition: var(--transition);
+    position: absolute;
+    left: 5px;
+  }
+  .switch .moon {
+    width: 18px;
+    fill: var(--color-gray);
+    opacity: 1;
+  }
+  
+  .switch .sun {
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    left: calc(100% - 21.5px);
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.8;
+    opacity: 0;
+  }
+  
+  .switch .sun .dot {
+    positon: relative;
+    display: block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--color-dark);
+    background: white;
+    z-index: 1;
+    box-shadow: 11px 0px 0px var(--shadow-color),
+      10.3px 0px 0px var(--shadow-color), -11px 0px 0px var(--shadow-color),
+      -10.3px 0px 0px var(--shadow-color), 0px -11px 0px var(--shadow-color),
+      0px -10.3px 0px var(--shadow-color), 0px 11px 0px var(--shadow-color),
+      0px 10.3px 0px var(--shadow-color), 8px 8px 0px var(--shadow-color),
+      7.3px 7.3px 0px var(--shadow-color), 8px -8px 0px var(--shadow-color),
+      7.3px -7.3px 0px var(--shadow-color), -8px -8px 0px var(--shadow-color),
+      -7.3px -7.3px 0px var(--shadow-color), -8px 8px 0px var(--shadow-color),
+      -7.3px 7.3px 0px var(--shadow-color);
+  }
+  
+  .switch .sun .dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid var(--color-dark);
+  }
+  
+  /*checkbox styles */
+  .switch .circle {
+    appearance: none;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 0;
+    background-color: var(--color-darkGray);
+    border: 1px solid var(--color-darkGray);
+    transition: var(--transition500);
+    box-shadow: 1px 1px 20px 3px var(--color-darkGray);
+  }
+  
+  .switch:has(.circle:checked) {
+    background: var(--color-offwhite);
+  }
+  
+  .switch .circle:hover {
+    margin-left: 3px;
+  }
+  .switch .circle:checked:hover {
+    margin-left: -3px;
+  }
+  
+  .switch .circle:checked {
+    left: calc(100% - 24px);
+    background: white;
+    border-color: white;
+    box-shadow: 1px 1px 30px 12px white;
+  }
+  
+  .switch:has(.circle:checked) > .sun {
+    opacity: 1;
+  }
+  
+  .switch:has(.circle:checked) > .moon {
+    opacity: 0;
+  }
+  

@@ -1,0 +1,149 @@
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.exe
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Application.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Domain.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Application.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Domain.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Persistence.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.AssemblyReference.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.AssemblyInfoInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.AssemblyInfo.cs
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.CoreCompileInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\scopedcss\bundle\FreelaAPI.styles.css
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.CopyComplete
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\refint\FreelaAPI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.deps.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.runtimeconfig.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.genruntimeconfig.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\ref\FreelaAPI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\appsettings.Development.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\appsettings.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.exe
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.deps.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.runtimeconfig.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Humanizer.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Application.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Domain.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Persistence.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Application.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Domain.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Freela.Persistence.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.AssemblyReference.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.AssemblyInfoInputs.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.AssemblyInfo.cs
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.CoreCompileInputs.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets\msbuild.FreelaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.FreelaAPI.props
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FreelaAPI.props
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FreelaAPI.props
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets.build.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\staticwebassets.development.json
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\scopedcss\bundle\FreelaAPI.styles.css
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.csproj.CopyComplete
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\refint\FreelaAPI.dll
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.pdb
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.genruntimeconfig.cache
+E:\Backup 20052023\Projetos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\ref\FreelaAPI.dll

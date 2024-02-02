@@ -14,7 +14,7 @@ export class FiltersComponent {
     { value: 3, label: 'Opção 3', image: '../../../assets/ranked-emblem/emblem-esmerald.png' },
   ];
   
-  modalOpen : boolean = true;
+  modalOpen : boolean = false;
 
   closeModal(modal:boolean){
     this.modalOpen = modal;

@@ -22,6 +22,7 @@ main{
     padding: 0.6rem;
     height: 1.8rem;
     margin-right: 1rem;
+    border: 2px solid var(--Border);
 }
 
 .lanes img{
@@ -54,10 +55,13 @@ button{
 
 .selects .game-mode{
     width:48%;
+    border: 2px solid var(--Border);
+
 }
 
 .selects .elo{
     width:48%;
+    border: 2px solid var(--Border);
 }
 
 
