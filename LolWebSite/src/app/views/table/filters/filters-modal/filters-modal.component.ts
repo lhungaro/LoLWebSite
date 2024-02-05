@@ -1,5 +1,6 @@
 
 import { Component, EventEmitter, Output } from '@angular/core';
+import { Account } from 'src/app/models/account';
 import { Mastery } from 'src/app/models/mastery';
 import { AccountService } from 'src/app/services/account.service';
 
@@ -34,28 +35,10 @@ export class FiltersModalComponent {
   midDuoLaneIsActive: boolean = false;
   botDuoLaneIsActive: boolean = false;
   suporteDuoLaneIsActive: boolean = false;
-
-  champMastery1 : Mastery = {
-    champ: "Aatrox",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
-    champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Aatrox.png"
-  }
-
-  champMastery2 : Mastery = {
-    champ: "Ahri",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
-    champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Ahri.png"
-
-  }
-  champMastery3 : Mastery = {
-    champ: "Sejuani",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
-    champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Sejuani.png"
-  }
-  
+  account!:Account;
+  mastery!:Mastery[];
+  champMasterys : Mastery[] = []; 
+  masterys: Mastery[]=[];
   closeModal(){
     this.closeModalTable.emit(false);
   }
@@ -93,8 +76,58 @@ export class FiltersModalComponent {
   }
 
   Verificar(){
-    if(this.username)
-      this.accountService
+    this.GetUser();
+  }
+
+  GetUser(){
+    if(this.username){
+
+      this.accountService.getIdAccountByNameBr(this.username).subscribe({
+        next: (_account:Account) => {
+          this.account = _account
+          console.log("Sucesso");
+          console.log(this.account);
+        },
+        error: (error:any) => {
+          // this.spinner.hide();
+          console.log('Erro ao carregar o Usuário','Erro!');
+        },
+         complete: () => {
+          if(this.account!= null){
+            this.GetMasterys();
+          }
+        }
+      });
+    }
+  }
+
+  GetMasterys(){
+    if(this.account!= null){
+      this.accountService.getMaestriasByPiuuId(this.account.puuid).subscribe({
+        next: (_mastery:Mastery[]) => {
+          this.mastery = _mastery
+          console.log("Sucesso");
+          console.log(this.mastery);
+        },
+        error: (error:any) => {
+          // this.spinner.hide();
+          console.log('Erro ao carregar as Maestrias','Erro!');
+        },
+         complete: () => {
+          this.populaMasterys()
+
+        }
+      });
+    }
+  }
+
+  populaMasterys(){
+    for(let i = 0; i < 3; i++){
+      this.masterys.push(this.mastery[i]);
+      console.log(this.masterys[i].champName)
+      console.log(this.masterys[i].champUrlImg)
+    }
+    this.perfilVerificado = true;
   }
 
 }

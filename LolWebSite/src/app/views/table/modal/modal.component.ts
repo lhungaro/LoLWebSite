@@ -19,24 +19,24 @@ export class ModalComponent {
   PDL : number = 92;
   elo : string = "Esmeralda II";
 
-  champMastery1 : Mastery = {
+  champMastery1 : any = {
     champ: "Aatrox",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
+    championPoints: "256.351",
+    championLevel: "7",
     champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Aatrox.png"
   }
 
-  champMastery2 : Mastery = {
+  champMastery2 : any = {
     champ: "Ahri",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
+    championPoints: "256.351",
+    championLevel: "7",
     champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Ahri.png"
 
   }
-  champMastery3 : Mastery = {
+  champMastery3 : any = {
     champ: "Sejuani",
-    masteryPoints: "256.351",
-    masteryLevel: "7",
+    championPoints: "256.351",
+    championLevel: "7",
     champIconUrl:"http://ddragon.leagueoflegends.com/cdn/13.20.1/img/champion/Sejuani.png"
   }
   

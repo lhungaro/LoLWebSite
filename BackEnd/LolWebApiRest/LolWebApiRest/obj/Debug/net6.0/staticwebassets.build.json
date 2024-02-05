@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jwJssIJ3FKX+OZavc334kn1z8wkyN/0d1OgpP1z3UIY=",
+  "Source": "LolWebApiRest",
+  "BasePath": "_content/LolWebApiRest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

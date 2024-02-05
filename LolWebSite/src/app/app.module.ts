@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccountService } from './services/account.service';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { MainPageComponent } from './views/main-page/main-page.component';
 import { HeaderComponent } from './views/header/header.component';
 import { NgSelectModule } from '@ng-select/ng-select';
@@ -32,7 +32,8 @@ import { FiltersModalComponent } from './views/table/filters/filters-modal/filte
     CommonModule,
     HttpClientModule,
     NgSelectModule,
-    FormsModule
+    FormsModule,
+    HttpClientJsonpModule 
   ],
   providers: [AccountService],
   bootstrap: [AppComponent]

@@ -203,6 +203,7 @@ textarea:focus{
 .icon-champ{
     height: 5rem;
     width: 5rem;
+    min-width: 5rem;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -249,8 +250,12 @@ textarea:focus{
 }
 
 .mastery-points img{
-    width: 1.5rem;
+    width: 1rem;
     margin-right: 0.3rem;
+}
+.maestry-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .nickname{

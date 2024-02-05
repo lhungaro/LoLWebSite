@@ -7,7 +7,7 @@ import { Component, ElementRef, Renderer2 } from '@angular/core';
 })
 export class AppComponent {
   title = 'LolWebSite';
-  isDarkTheme = false;
+  isDarkTheme = true;
 
   constructor(private renderer : Renderer2, private el: ElementRef) {}
 

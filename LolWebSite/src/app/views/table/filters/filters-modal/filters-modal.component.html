@@ -13,7 +13,7 @@
             </div>
             <div class="user-informations">
                 <h3>{{username}}</h3>
-                <p *ngIf=verified style="display: flex;align-items: center;"><img src="../../assets/UI/riot-icon.png" alt="" style="margin-right: 5px;height: 1rem;">Verificado </p>
+                <p *ngIf="verified" style="display: flex;align-items: center;"><img src="../../assets/UI/riot-icon.png" alt="" style="margin-right: 5px;height: 1rem;">Verificado </p>
                 <span>{{PDL}} PDL {{elo}}</span>
                 <span>{{totalGames}} Games</span>
             </div>
@@ -27,7 +27,7 @@
         <h4>Digite seu nick *</h4>
         <div class="nickname-containter">
             <div class="nickname">
-                <input type="text" name="nickname" id="nickname" maxlength="25" ngModel="username">
+                <input type="text" name="nickname" id="nickname" maxlength="25" [(ngModel)]="username">
             </div>
             <button (click)="Verificar()">{{LabelVerificar}}</button>
         </div>
@@ -100,43 +100,17 @@
 
         <div *ngIf="perfilVerificado">
             <h4>Maiores maestrias</h4>
-            <div>
-                <div class="maestry-informations">
+            <div class="maestry-container">
+                <div *ngFor="let champMastery of masterys" class="maestry-informations">
                     <div class="champ-maestry">
                         <div class="icon-champ">
-                            <img [src]="champMastery1.champIconUrl" alt="">
+                            <img [src]="champMastery.champUrlImg" alt="">
                         </div>
                         <div class="mastery-points">
-                            <label for="img">{{champMastery1.champ}}</label>
+                            <label for="img">{{champMastery.champName}}</label>
                             <span>
                                 <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
-                                {{champMastery1.masteryPoints}}
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="champ-maestry">
-                        <div class="icon-champ">
-                            <img  [src]="champMastery2.champIconUrl" alt=""> 
-                        </div>
-                        <div class="mastery-points">
-                            <label for="img">{{champMastery2.champ}}</label>
-                            <span>
-                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
-                                {{champMastery2.masteryPoints}}
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="champ-maestry">
-                        <div class="icon-champ">
-                            <img [src]="champMastery3.champIconUrl" alt="">
-                        </div>
-                        <div class="mastery-points">
-                            <label for="img">{{champMastery3.champ}}</label>
-                            <span>
-                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
-                                {{champMastery3.masteryPoints}}
+                                {{champMastery.championPoints}}
                             </span>
                         </div>
                     </div>
