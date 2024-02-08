@@ -16,6 +16,7 @@ namespace LolWebAPI.Services
         private readonly string _baseUrlBr;
         private readonly string _urlChampionsList;
         private readonly string _urlChampionsImage;
+        private readonly string _urlIconsImage;
 
         public LolService(IConfiguration configuration)
         {
@@ -24,6 +25,7 @@ namespace LolWebAPI.Services
             _baseUrlBr = configuration.GetValue<string>("AppSettings:BaseUrlBr");
             _urlChampionsList = configuration.GetValue<string>("AppSettings:urlChampionsList");
             _urlChampionsImage = configuration.GetValue<string>("AppSettings:urlChampionImage");
+            _urlIconsImage = configuration.GetValue<string>("AppSettings:urlIconsImage");
             
             httpClient = new HttpClient();
         }
@@ -76,6 +78,7 @@ namespace LolWebAPI.Services
                         string responseBody = await response.Content.ReadAsStringAsync();
 
                         AccountInformations accountInformations = JsonConvert.DeserializeObject<AccountInformations>(responseBody);
+                        PreencheIconUrl(accountInformations);
 
                         return accountInformations;
                     }
@@ -199,7 +202,12 @@ namespace LolWebAPI.Services
             // Return null if there is an issue or if username is empty
             return null;
         }
-    }
 
+        private void PreencheIconUrl(AccountInformations accountInformations)
+        {
+            accountInformations.profileIconUrl = _urlIconsImage + accountInformations.profileIconId + ".png"; 
+        }
+
+    }
 
 }

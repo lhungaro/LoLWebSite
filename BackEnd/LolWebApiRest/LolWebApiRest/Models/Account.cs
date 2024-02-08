@@ -16,5 +16,6 @@
         public string profileIconId { get; set; }
         public string revisionDate { get; set; }
         public string summonerLevel { get; set; }
+        public string profileIconUrl { get; set; }
     }
 }
