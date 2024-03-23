@@ -2,13 +2,13 @@
     <div class="filters">
         <app-filters>ASDF</app-filters>
     </div>
-    <div *ngFor="let row of rows" class="table-row container">
+    <div *ngFor="let duo of duos" class="table-row container">
         <div class="row" (click)="openModal()">
             <div class="row-wrapper">
                 <div class="user">
                     <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
                     <div class="username">
-                        <h3>Username1 <img class="mic" src="../../assets/UI/mic.png" alt=""></h3>
+                        <h3>{{duo.gameName}} <img *ngIf="duo.isVoiceUser" class="mic" src="../../assets/UI/mic.png" alt=""></h3>
                         <span><img src="../../assets/UI/riot-icon.png" alt="">Verificado </span>
                     </div>
                 </div>
@@ -54,14 +54,14 @@
                 <th>Postado em</th>
             </tr>
         </thead>
-        <tbody *ngFor="let row of rows">
+        <tbody *ngFor="let duo of duos">
             <tr (click)="openModal()" style="cursor: pointer;">
                 <td>
                     <img class="profile-icon" src="../../assets/UI/profileicon.png" alt="">
                 </td>
                 <td>
                     <div class="username">
-                        <h3>Username1 <img class="mic" src="../../assets/UI/mic.png" alt=""></h3>
+                        <h3>{{duo.gameName}} <img *ngIf="duo.isVoiceUser" class="mic" src="../../assets/UI/mic.png" alt=""></h3>
                         <span><img src="../../assets/UI/riot-icon.png" alt="">Verificado </span>
                     </div>
                 </td>

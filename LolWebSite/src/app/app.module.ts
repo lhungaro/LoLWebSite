@@ -14,6 +14,7 @@ import { TableComponent } from './views/table/table.component';
 import { FiltersComponent } from './views/table/filters/filters.component';
 import { ModalComponent } from './views/table/modal/modal.component';
 import { FiltersModalComponent } from './views/table/filters/filters-modal/filters-modal.component';
+import { DuoService } from './services/duo.service';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { FiltersModalComponent } from './views/table/filters/filters-modal/filte
     FormsModule,
     HttpClientJsonpModule 
   ],
-  providers: [AccountService],
+  providers: [AccountService,DuoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
