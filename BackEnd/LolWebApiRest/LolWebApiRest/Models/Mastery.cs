@@ -14,6 +14,7 @@
         public string summonerId { get; set; }
         public string? ChampName { get; set; }
         public string? ChampUrlImg { get; set; }
+        public List<string>? Tags{ get; set; }
 
     }
 }

@@ -20,6 +20,7 @@
         public List<string> tags { get; set; }
         public string partype { get; set; }
         public ChampionStats stats { get; set; }
+        public string imageUrl { get; set; }
     }
 
     public class ChampionInfo
