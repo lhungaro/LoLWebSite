@@ -1,4 +1,5 @@
-﻿using LolWebAPI.Models;
+﻿using Humanizer;
+using LolWebAPI.Models;
 using LolWebApiRest.Constants;
 using LolWebApiRest.Interfaces;
 using LolWebApiRest.Repository;
@@ -492,12 +493,17 @@ namespace LolWebAPI.Services
             }
         }
 
-        public async Task<Duo[]> GetAllDuos()
+        public async Task<DuoDTO[]> GetAllDuos()
         {
             try
             {
                 var duos = await _anuncioRepository.GetAllDuos();
                 if (duos == null) return null;
+
+                foreach (var duo in duos)
+                {
+                    duo.AccountInformations = await GetAccountInformations(duo.Puuid);
+                }
 
                 return duos;
             }
@@ -507,12 +513,13 @@ namespace LolWebAPI.Services
             }
         }
 
-        public async Task<Duo> GetDuoByIdAsync(int Id)
+        public async Task<DuoDTO> GetDuoByIdAsync(int Id)
         {
             try
             {
-                var duo = await _anuncioRepository.GetDuoByIdAsync(Id);
+                var duo = await _anuncioRepository.GetDuoDTOByIdAsync(Id);
                 if (duo == null) return null;
+                duo.AccountInformations = await GetAccountInformations(duo.Puuid);
 
                 return duo;
             }
@@ -522,5 +529,6 @@ namespace LolWebAPI.Services
             }
         }
     }
+
 
 }

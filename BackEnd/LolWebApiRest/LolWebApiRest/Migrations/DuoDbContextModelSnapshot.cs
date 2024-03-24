@@ -29,24 +29,32 @@ namespace LolWebApiRest.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Elo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("GameName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("IdElo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdLane")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdLaneDuo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdModoDeJogo")
-                        .HasColumnType("int");
+                    b.Property<string>("IdIcone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVoiceUser")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Lane")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LaneDuo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ModoDeJogo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Note")
                         .IsRequired()

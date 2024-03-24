@@ -14,13 +14,51 @@ namespace LolWebApiRest.Repository
             _context = context;
             _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
-        public async Task<Duo[]> GetAllDuos()
+        public async Task<DuoDTO[]> GetAllDuos()
         {
             IQueryable<Duo> query = _context.Duos;
             query = query.OrderBy(p => p.Id);
 
-            return await query.ToArrayAsync();
+            var duos = await query.ToArrayAsync();
+
+            var duosDTO = duos.Select(duo => new DuoDTO
+            {
+                Id = duo.Id,
+                Puuid = duo.Puuid,
+                GameName = duo.GameName,
+                TagLine = duo.TagLine,
+                Lane = duo.Lane,
+                LaneDuo = duo.LaneDuo,
+                Elo = duo.Elo,
+                ModoDeJogo = duo.ModoDeJogo,
+                IsVoiceUser = duo.IsVoiceUser,
+                Note = duo.Note
+            }).ToArray();
+
+            return duosDTO;
         }
+        public async Task<DuoDTO> GetDuoDTOByIdAsync(int Id)
+        {
+            IQueryable<Duo> query = _context.Duos;
+            query = query.OrderBy(p => p.Id).Where(p => p.Id == Id);
+
+            var duo = await query.FirstOrDefaultAsync();
+            var duoDTO = new DuoDTO
+            {
+                Id = duo.Id,
+                Puuid = duo.Puuid,
+                GameName = duo.GameName,
+                TagLine = duo.TagLine,
+                Lane = duo.Lane,
+                LaneDuo = duo.LaneDuo,
+                Elo = duo.Elo,
+                ModoDeJogo = duo.ModoDeJogo,
+                IsVoiceUser = duo.IsVoiceUser,
+                Note = duo.Note
+            };
+            return duoDTO;
+        }
+
         public async Task<Duo> GetDuoByIdAsync(int Id)
         {
             IQueryable<Duo> query = _context.Duos;

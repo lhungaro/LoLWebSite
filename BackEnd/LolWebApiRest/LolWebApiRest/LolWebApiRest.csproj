@@ -22,4 +22,9 @@
 	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.28" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\NovaPasta1\" />
+    <Folder Include="Models\NovaPasta\" />
+  </ItemGroup>
+
 </Project>
