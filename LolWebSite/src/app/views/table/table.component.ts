@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Duo } from 'src/app/models/duo';
+import { Duo, DuoDTO } from 'src/app/models/duo';
 import { DuoService } from 'src/app/services/duo.service';
 
 @Component({
@@ -11,16 +11,16 @@ export class TableComponent {
 
   constructor(private duoService:DuoService) { }
 
-  duos : Duo[] = [];
+  duos : DuoDTO[] = [];
   modalOpen : boolean = false;
 
   ngOnInit(){
-    this.GetAllDuos();
+    this.getAllDuos();
   }
 
-  GetAllDuos(){
+  getAllDuos(){
       this.duoService.getAllDuos().subscribe({
-        next: (_duos:Duo[]) => {
+        next: (_duos:DuoDTO[]) => {
           this.duos = _duos
           console.log("Sucesso");
           console.log(this.duos);

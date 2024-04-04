@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Mastery } from 'src/app/models/mastery';
+import { DuoService } from 'src/app/services/duo.service';
 
 @Component({
   selector: 'app-modal',
@@ -7,6 +8,8 @@ import { Mastery } from 'src/app/models/mastery';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
+
+  constructor(private duoService:DuoService) {}
 
   @Output() closeModalTable = new EventEmitter<boolean>();
 
@@ -43,4 +46,7 @@ export class ModalComponent {
   closeModal(){
     this.closeModalTable.emit(false);
   }
+
+  
+
 }

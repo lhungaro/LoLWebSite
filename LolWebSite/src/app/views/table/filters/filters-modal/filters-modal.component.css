@@ -279,7 +279,7 @@ textarea:focus{
     font-family: 'Fredoka';
 }
 
-.nickname-containter{
+.tag-containter{
     display: flex;
     gap: 1rem;
 }
@@ -361,6 +361,13 @@ width: 100%;
 h2{
     color:var(--Text);
     margin-bottom: 1.5rem;
+}
+
+.userContainer{
+    width: 100%;
+}
+.userContainer .nick{
+    min-width: 100%;
 }
 
 @media (min-width: 1440px) {
@@ -587,9 +594,21 @@ h2{
         display: flex;
         gap: 1rem;
     }
-    .nickname-containter button{
+    .tag-containter button{
         width: 15rem;
     }
+    .nickname-containter{
+        display: flex;
+        gap: 1;
+    }
 
+    .userContainer{
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+    }
+    .userContainer .nick{
+        min-width: 50%;
+    }
   
 }

@@ -8,7 +8,7 @@ export class AccountService{
 
   constructor(private http: HttpClient) {}
 
-  private baseUrl = 'https://localhost:7213/'
+  private baseUrl = 'https://localhost:7213/api/Lol/'
 
   public getIdAccountByNameBr(name: string){
     let parts = name.split('#');

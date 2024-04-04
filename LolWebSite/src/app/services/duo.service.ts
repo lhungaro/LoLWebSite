@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { map } from 'rxjs/operators';
-import { Duo } from "../models/duo";
+import { Duo, DuoDTO } from "../models/duo";
 @Injectable()
 
 export class DuoService{
@@ -13,14 +13,19 @@ export class DuoService{
 
   public getAllDuos(){
     var url = this.baseUrl;
-    return this.http.get<Duo[]>(url);
+    return this.http.get<DuoDTO[]>(url);
+  }
+  
+  public postDuo(data: Duo) {
+    var url = this.baseUrl;
+    return this.http.post(url, data);
   }
 
-  public getMaestriasByPiuuId(piuuid: string){
-    var url = this.baseUrl + `GetMastery/${piuuid}`;
-    
-    return this.http.get<any>(url);
-  }
+  // public getMaestriasByPiuuId(piuuid: string){
+  //   var url = this.baseUrl + `GetMastery/${piuuid}`;
+  //   return this.http.get<any>(url);
+  // }
+
 
 }
 

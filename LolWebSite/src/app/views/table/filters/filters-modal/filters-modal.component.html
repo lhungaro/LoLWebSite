@@ -24,105 +24,118 @@
 
         <div class="divider" *ngIf="perfilVerificado"></div>
 
-        <h4>Digite seu nick *</h4>
-        <div class="nickname-containter">
-            <div class="nickname">
-                <input type="text" name="nickname" id="nickname" maxlength="25" [(ngModel)]="username">
-            </div>
-            <button (click)="Verificar()">{{LabelVerificar}}</button>
-        </div>
-
-        <div class="lane-select">
-            <div class="lane">
-                <h4>Selecione sua lane *</h4>
-                <div class="lanes"> 
-                     <div class="lanesImages" (click)="selecionouDuoTop()" [ngClass]="{ 'laneSelecionada': topDuoLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
-                     <div class="lanesImages" (click)="selecionouDuoJungle()" [ngClass]="{ 'laneSelecionada': jungleDuoLaneIsActive }"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
-                     <div class="lanesImages" (click)="selecionouDuoMid()" [ngClass]="{ 'laneSelecionada': midDuoLaneIsActive }"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
-                     <div class="lanesImages" (click)="selecionouDuoBot()" [ngClass]="{ 'laneSelecionada': botDuoLaneIsActive }"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
-                     <div class="lanesImages" (click)="selecionouDuoSuporte()" [ngClass]="{ 'laneSelecionada': suporteDuoLaneIsActive }"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
-                </div>
-            </div>
-            <div style="margin-left: 1rem;"></div>
-            <div class="selects">
-                <h4>Selecione o modo *</h4>
-                <div class="select">
-                    <select class="elo" name="" id="">
-                        <option value="soloduo">Ranked Solo <img src="../../../assets/ranked-emblem/emblem-esmerald.png" alt=""></option>
-                        <option value="normal">Normal Game</option>
-                        <option value="flex">Ranked Flex</option>
-                        <option value="aram">Aram</option>
-                        <option value="arena">Arena</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <div class="lane-select">
-            <div class="lane">
-                <h4>Selecione a lane do seu duo *</h4>
-                <div class="lanes"> 
-                    <div class="lanesImages" (click)="selecionouTop()" [ngClass]="{ 'laneSelecionada': topLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
-                    <div class="lanesImages" (click)="selecionouJungle()" [ngClass]="{ 'laneSelecionada': jungleLaneIsActive}"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
-                    <div class="lanesImages" (click)="selecionouMid()" [ngClass]="{ 'laneSelecionada': midLaneIsActive}"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
-                    <div class="lanesImages" (click)="selecionouBot()" [ngClass]="{ 'laneSelecionada': botLaneIsActive}"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
-                    <div class="lanesImages" (click)="selecionouSuporte()" [ngClass]="{ 'laneSelecionada': suporteLaneIsActive}"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
-                </div>
-            </div>
-            <div style="margin-left: 1rem;"></div>
-            <div class="selects">
-                <h4>Selecione seu elo *</h4>
-                <div class="select">
-                    <select class="game-mode" name="" id="">
-                        <option value="bronze">Bronze</option>
-                        <option value="prata">Prata</option>
-                        <option value="ouro">Ouro</option>
-                        <option value="platina">Platina</option>
-                        <option value="esmeralda">Esmeralda</option>
-                        <option value="diamante">Diamante</option>
-                        <option value="mestre">Mestre</option>
-                        <option value="graoMestre">Grão-Mestre</option>
-                        <option value="desafiante">Desafiante</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <div class="checkbox">
-            <input type="checkbox" name="" id="">
-            <h4>Costumo me conectar ao chat de voz</h4>
-        </div>
-
-        <div>
-            <h4>Deixe uma nota *</h4>
-            <textarea class="textarea"></textarea>
-        </div>
-
-        <div *ngIf="perfilVerificado">
-            <h4>Maiores maestrias</h4>
-            <div class="maestry-container">
-                <div *ngFor="let champMastery of masterys" class="maestry-informations">
-                    <div class="champ-maestry">
-                        <div class="icon-champ">
-                            <img [src]="champMastery.champUrlImg" alt="">
-                        </div>
-                        <div class="mastery-points">
-                            <label for="img">{{champMastery.champName}}</label>
-                            <span>
-                                <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
-                                {{champMastery.championPoints}}
-                            </span>
+        <form (ngSubmit)="onSubmit()">
+            <div class="userContainer">
+                <div class="nick">
+                    <h4>Digite seu nick *</h4>
+                    <div class="nickname-containter">
+                        <div class="nickname">
+                            <input type="text" name="nickname" id="nickname" maxlength="25" [(ngModel)]="username" required> 
                         </div>
                     </div>
-
+                </div>
+                <div class="tag">
+                    <h4>Digite sua tag *</h4>
+                    <div class="tag-containter">
+                        <div class="nickname">
+                            <input type="text" name="tag" id="tag" maxlength="25" [(ngModel)]="tag" required> 
+                        </div>
+                        <button type="button" class="verified-button" (click)="Verificar()" (disabled)="!podeVerificar()">{{LabelVerificar}} </button>
+                    </div>
                 </div>
             </div>
+                
+            <div class="lane-select">
+                <div class="lane">
+                    <h4>Selecione sua lane *</h4>
+                    <div class="lanes"> 
+                        <div class="lanesImages" (click)="selecionouTop()" [ngClass]="{ 'laneSelecionada': topLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouJungle()" [ngClass]="{ 'laneSelecionada': jungleLaneIsActive }"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouMid()" [ngClass]="{ 'laneSelecionada': midLaneIsActive }"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouBot()" [ngClass]="{ 'laneSelecionada': botLaneIsActive }"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouSuporte()" [ngClass]="{ 'laneSelecionada': suporteLaneIsActive }"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
+                    </div>
+                </div>
+                <div style="margin-left: 1rem;"></div>
+                <div class="selects">
+                    <h4>Selecione o modo *</h4>
+                    <div class="select">
+                        <select class="elo" name="gameMode" id="gameMode" [(ngModel)]="gameMode">
+                            <option value="soloduo">Ranked Solo <img src="../../../assets/ranked-emblem/emblem-esmerald.png" alt=""></option>
+                            <option value="normal">Normal Game</option>
+                            <option value="flex">Ranked Flex</option>
+                            <option value="aram">Aram</option>
+                            <option value="arena">Arena</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lane-select">
+                <div class="lane">
+                    <h4>Selecione a lane do seu duo *</h4>
+                    <div class="lanes"> 
+                        <div class="lanesImages" (click)="selecionouDuoTop()" [ngClass]="{ 'laneSelecionada': topDuoLaneIsActive }"><img src="../../../assets/UI/top_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouDuoJungle()" [ngClass]="{ 'laneSelecionada': jungleDuoLaneIsActive}"><img src="../../../assets/UI/jungle_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouDuoMid()" [ngClass]="{ 'laneSelecionada': midDuoLaneIsActive}"><img src="../../../assets/UI/mid_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouDuoBot()" [ngClass]="{ 'laneSelecionada': botDuoLaneIsActive}"><img src="../../../assets/UI/bot_gold.png" alt=""></div>
+                        <div class="lanesImages" (click)="selecionouDuoSuporte()" [ngClass]="{ 'laneSelecionada': suporteDuoLaneIsActive}"><img src="../../../assets/UI/suport_gold.png" alt=""></div>
+                    </div>
+                </div>
+                <div style="margin-left: 1rem;"></div>
+                <div class="selects">
+                    <h4>Selecione seu elo *</h4>
+                    <div class="select">
+                        <select class="game-mode" name="elo" id="elo" [(ngModel)]="eloSelecionado">
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Prata</option>
+                            <option value="gold">Ouro</option>
+                            <option value="platinum">Platina</option>
+                            <option value="esmerald">Esmeralda</option>
+                            <option value="diamond">Diamante</option>
+                            <option value="master">Mestre</option>
+                            <option value="grandmaster">Grão-Mestre</option>
+                            <option value="challenger">Desafiante</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="isVoiceUserCheckbox" id="isVoiceUserCheckbox" [(ngModel)]="isVoiceUserCheck">
+                <h4>Costumo me conectar ao chat de voz</h4>
+            </div>
+
+            <div>
+                <h4>Deixe uma nota *</h4>
+                <textarea class="textarea" name="note" id="note" [(ngModel)]="note"></textarea>
+            </div>
+            <div *ngIf="perfilVerificado">
+                <h4>Maiores maestrias</h4>
+                <div class="maestry-container">
+                    <div *ngFor="let champMastery of masterys" class="maestry-informations">
+                        <div class="champ-maestry">
+                            <div class="icon-champ">
+                                <img [src]="champMastery.champUrlImg" alt="">
+                            </div>
+                            <div class="mastery-points">
+                                <label for="img">{{champMastery.champName}}</label>
+                                <span>
+                                    <img src="../../../assets/UI/Mastery/mastery_icon_7.svg" alt="">
+                                    {{champMastery.championPoints}}
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             
-        </div>
-        <div class="buttons">
-            <button class="buttonCancelar" (click)="closeModal()">Cancelar</button>
-            <button>Criar anúncio</button>
-        </div>
+            </div>
+            <div class="buttons">
+                <button class="buttonCancelar" (click)="closeModal()">Cancelar</button>
+                <button  type="submit">Criar anúncio</button>
+            </div>
+        </form> 
 
     </div>
 </main>

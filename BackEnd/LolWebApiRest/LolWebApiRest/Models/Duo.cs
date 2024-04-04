@@ -2,7 +2,6 @@
 {
     public class Duo
     {
-
         public int Id { get; set; }
         public string Puuid { get; set; }
         public string GameName { get; set; }
@@ -13,6 +12,5 @@
         public string ModoDeJogo { get; set; }
         public bool IsVoiceUser { get; set; }
         public string Note { get; set; }
-        public string IdIcone { get; set; }
     }
 }
